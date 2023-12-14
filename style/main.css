@@ -286,6 +286,18 @@ input {
   letter-spacing: -0.56px;
 }
 
+.banner-3__button:hover {
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(53, 151, 64, 0.6392156863);
+}
+
+.banner-2__button:hover {
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  background-color: #359740;
+}
+
 .banner-3 {
   margin-bottom: 40px;
 }
@@ -335,6 +347,9 @@ input {
   position: absolute;
   top: 12px;
   right: 12px;
+}
+.panel .panel__img-like {
+  cursor: pointer;
 }
 .panel__title {
   color: #1F2533;
